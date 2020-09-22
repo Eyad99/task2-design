@@ -1,0 +1,70 @@
+
+.London{
+	background-color: teal;
+	color: #000;
+}
+.Paris{
+	background-color: tomato;
+	color: #000;
+
+}
+.Japan{
+	background-color: violet;
+	color: #000;
+}
+
+
+
+
+@media (min-width:1200px){
+	.London{
+		max-width: 30% !important;
+		margin-right: 5px;
+	}
+	.Paris{
+		max-width: 30% !important;
+		margin-right: 5px;
+
+	}
+	.Japan{
+		max-width: 30% !important;
+		margin-right: 5px;
+
+	}
+	.row{
+		justify-content: center;
+	}
+	.nav-link{
+		overflow: hidden;
+	}
+}
+@media (max-width:1199px) and (min-width:992px){
+	.London{
+		max-width: 49% !important;
+		margin-right: 19px;
+
+	}
+	.Paris{
+		max-width: 49% !important;
+
+	}
+
+}
+@media(max-width:991px) and (min-width:768px){
+
+}
+@media(max-width:766px){
+	.London{
+		margin: 10px;
+	}
+	.Paris{
+		margin: 10px;
+
+	}
+	.Japan{
+		margin: 10px;
+
+	}
+}
+
+
