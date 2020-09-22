@@ -14,8 +14,6 @@
 }
 
 
-
-
 @media (min-width:1200px){
 	.London{
 		max-width: 30% !important;
@@ -33,9 +31,6 @@
 	}
 	.row{
 		justify-content: center;
-	}
-	.nav-link{
-		overflow: hidden;
 	}
 }
 @media (max-width:1199px) and (min-width:992px){
